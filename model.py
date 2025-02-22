@@ -11,6 +11,7 @@ import gensim.downloader as api
 
 # Download required NLTK data
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 
 # Load stopwords
