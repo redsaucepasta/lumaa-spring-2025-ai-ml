@@ -13,7 +13,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AppComponent {
 
-  aws_url = "ec2-54-152-44-163.compute-1.amazonaws.com:8000/"
+  aws_url = "http://ec2-54-152-44-163.compute-1.amazonaws.com:8000/"
   local_url = "http://localhost:8000/"
 
   prompt: string = "";
