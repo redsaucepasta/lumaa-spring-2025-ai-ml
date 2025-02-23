@@ -123,7 +123,7 @@ def recommend_movies_weighted(user_query, df, weights, top_n=5, reg=True):
     """
     # Clean and preprocess user query
     user_query = clean_user_query(user_query)
-    print(f"Processed query: {user_query}")
+    # print(f"Processed query: {user_query}")
 
     # Precompute weighted document vectors for each movie
     doc_vectors = np.array([
@@ -159,7 +159,7 @@ if __name__ == "__main__":
         'title_list': 2.0
     }
     
-    user_query = "mission impossible"
+    user_query = input("\nEnter the prompt: ")
 
     movies_df = pd.read_csv('movies_cleaned_preprocessed.csv')
     
