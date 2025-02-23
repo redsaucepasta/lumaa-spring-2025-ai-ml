@@ -89,12 +89,10 @@ Want to tweak these? Just adjust the weights in `model.py` and make it your own!
 
 ## 📊 What to Expect
 
-When you ask for something like "mission impossible", you'll get:
-```
-Processed query: mission impossible
+When you ask for something like "Something with lots of explosions and car chases", you'll get:
 
-[A neat list of movies with titles, genres, cast, and how well they match your request!]
-```
+![A list of movies with explosions and car chases](image.png)
+
 
 ## 🎥 The Movie Database
 
